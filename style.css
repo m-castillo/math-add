@@ -97,4 +97,60 @@ input {
 	margin-left: -400px;
 }
 
+/*Stylesheet for Game Over */
+
+.timeUp {
+	background-color: #3F03A5;
+	color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	display: none;
+}
+
+#up {
+	font-size: 70px;
+	margin-top: 100px;
+}
+
+#count {
+	font-size: 90px;
+	margin-top: 50px;
+}
+
+#like {
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+#decision {
+	margin-left: 550px;
+	margin-top: 60px;
+}
+#yes, #no {
+	float: left;
+	padding: 50px;
+	font-size: 50px;
+	border-radius: 20px;
+}
+
+#yes {
+	background-color: #178703;
+}
+
+#no {
+	background-color: #B40404;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
 
