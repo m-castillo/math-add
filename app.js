@@ -19,7 +19,7 @@ $(document).ready(function() {
 				$("#count").text("You have answered " + count + " correct!");
 				console.log("You have answered " + count + " correct!");
 			}, 60000);
-
+		count = 0;
 	}
 
 
