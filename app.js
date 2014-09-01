@@ -6,7 +6,7 @@ $(document).ready(function() {
 	var newGame;
 	var total;
 	var timeOut;
-	var count = 0
+	var count;
 
 
 	$("#count").text("You have answered " + count + " correct!");
