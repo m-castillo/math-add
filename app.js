@@ -16,6 +16,7 @@ $(document).ready(function() {
 		$("#problem2").append(computerNumber2);
 		var total = computerNumber1 + computerNumber2;
 		console.log(total);
+		$("#userGuess").val(""); 
 
  
 
@@ -25,8 +26,9 @@ $(document).ready(function() {
 	    if (e.keyCode == 13) { 
 	    	userNumber = $("#userGuess").val();
 	    	if (userNumber == total) {
-	    		$("#message").text("Awesome!");
 	    			location.reload();
+	    			$("#userGuess").val("");
+	    			event.preventDefault();
 	   		} else {
 	   			$("#message").text("Try Again...");
 	   			$("#userGuess").val(""); 
@@ -36,7 +38,16 @@ $(document).ready(function() {
 
 	});
 
+	$("#goBack").click(function() {
+		$(".game").fadeOut();
+		$(".instructions").fadeIn();
 
+	});
+
+	$("#play").click(function() {
+		$(".instructions").fadeOut();
+		$(".game").fadeIn();
+	})
 
 	 
 

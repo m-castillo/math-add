@@ -8,7 +8,6 @@
 	position: absolute;
 	bottom: 0px;
 	top: 0px;
-	display: none;
 }
 
 #title {
@@ -49,11 +48,53 @@
 	color: #B9048F;
 	background-color: white;
 	width: 300px;
-	margin-left: 550px;
+	margin-left: 570px;
 	padding: 10px;
 	border-radius: 70px;
 }
 
 /* Stylesheet for Game */
+
+.game {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 140px;
+	float: left;
+	margin-left: 400px;
+	display: none;
+}
+
+#add, #equal {
+	color: #B9048F;
+}
+
+input {
+	width: 300px;
+	height: 160px;
+	font-size: 140px;
+}
+
+
+::-webkit-input-placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 130px;
+}
+
+
+#problem1, #add, #problem2, #equal, #userGuess {
+	float: left;
+	margin-top: 300px;
+}
+
+#message {
+	font-size: 60px;
+	margin-top: 600px;
+	margin-left: 200px;
+}
+
+#goBack {
+	font-size: 15px;
+	margin-left: -400px;
+}
 
 
