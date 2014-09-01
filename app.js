@@ -43,6 +43,7 @@ $(document).ready(function() {
 		    	if (userNumber == total) {
 		    			$("#userGuess").val("");
 		    			$("#problem1, #problem2").empty();
+		    			$("#message").empty();
 		    			newNumbers();
 		    			count++;
 		    			console.log(count);
